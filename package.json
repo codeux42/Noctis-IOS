@@ -1,0 +1,21 @@
+﻿{
+  "name": "noctis-mobile",
+  "version": "1.3.1",
+  "private": true,
+  "description": "Applications mobiles Noctis (Android et iOS) basÃ©es sur Capacitor",
+  "scripts": {
+    "sync": "cap sync",
+    "android": "cap sync android && cap open android",
+    "ios": "cap sync ios && cap open ios",
+    "assets": "capacitor-assets generate"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/core": "^8.6.2",
+    "@capacitor/ios": "^8.6.2"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.2",
+    "@capacitor/cli": "^8.6.2"
+  }
+}
